@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 24px 0;
+}
+.logo a{
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav li{
+    margin: 0 24px;
+    list-style: none ;}
+.nav li a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.nav li:hover{
+    opacity: 0.8;
+}
+.box{
+    background-image: url("../img/flower.jpg");
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color:white;
+    color: black;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+.banner h1{
+    color: white;
+    margin: 20px 20px 0 20px;
+    text-align: center;
+}
+.banner p{
+    text-align: center;
+    color: white;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 20px;
+}
+.button{
+    margin: 0 20px 20px 20px;
+    border: 2px solid black;
+    padding: 20px 20px 20px;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.button a:hover{
+ opacity: 0.8;   
+}
+.column{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.column-1{
+    margin: 0 20px 20px 20px;
+    background-color: #F7BCD6;
+    padding: 20px 20px 20px;
+}
+.column-2{
+    margin: 0 20px 20px 20px;
+    background-color: #D0B3DD;
+    padding: 20px 20px 20px;
+}
+.column-3{
+    margin: 0 20px 20px 20px;
+    background-color: #9DBBE3;
+    padding: 20px 20px 20px;
+}
+.column-4{
+    margin: 0 20px 20px 20px;
+    background-color: #ABD9B4;
+    padding: 20px 20px 20px;
+}
+.column a{
+    letter-spacing: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.8s;
+    text-decoration: none;
+}
+.column p{
+    margin-top: 20px;
+    color: white;
+
+}
+.column a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.box3{
+    background-image: url("../img/pexels-valeria-boltneva-617967.jpg");
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    background-color:rgb(207, 49, 207);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 00.8s;
+}
+.box4 a:hover{
+    color: blue;
+    opacity: 0.8;
+}
